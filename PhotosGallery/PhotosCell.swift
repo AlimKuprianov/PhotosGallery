@@ -16,7 +16,7 @@ class PhotosCell: UICollectionViewCell {
     static let reuseid = "PhotosCell"
     
     private let checkmark: UIImageView = {
-        let image = UIImage(named: "checkmark")
+        let image = UIImage(named: "bird1")
         let imageview = UIImageView(image: image)
         imageview.translatesAutoresizingMaskIntoConstraints = false
         imageview.alpha = 0
@@ -31,7 +31,7 @@ class PhotosCell: UICollectionViewCell {
     }
     
     
-    private let photoImageView: UIImageView = {
+    let photoImageView: UIImageView = {
         
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
