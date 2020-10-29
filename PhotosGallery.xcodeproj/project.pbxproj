@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		EE0E74CD251927520076382A /* PhotosCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0E74CC251927520076382A /* PhotosCollectionVC.swift */; };
 		EE360EA5251A2AB300D98E34 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE360EA4251A2AB300D98E34 /* NetworkService.swift */; };
 		EE794FBB2519360B00FEA5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE794FBA2519360B00FEA5FF /* Main.storyboard */; };
+		EEC628E6254B72CF00EBD46B /* LikesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC628E5254B72CF00EBD46B /* LikesCollectionViewController.swift */; };
+		EEC628E8254B732000EBD46B /* LikesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC628E7254B732000EBD46B /* LikesCollectionViewCell.swift */; };
 		EEF14F712538FBDB00BEEAE5 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF14F702538FBDB00BEEAE5 /* NetworkDataFetcher.swift */; };
 		EEF14F732538FC3300BEEAE5 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF14F722538FC3300BEEAE5 /* SearchResults.swift */; };
 		EEF14F762539091F00BEEAE5 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF14F752539091F00BEEAE5 /* PhotosCell.swift */; };
@@ -37,6 +39,8 @@
 		EE0E74CC251927520076382A /* PhotosCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionVC.swift; sourceTree = "<group>"; };
 		EE360EA4251A2AB300D98E34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		EE794FBA2519360B00FEA5FF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EEC628E5254B72CF00EBD46B /* LikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewController.swift; sourceTree = "<group>"; };
+		EEC628E7254B732000EBD46B /* LikesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewCell.swift; sourceTree = "<group>"; };
 		EEF14F702538FBDB00BEEAE5 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		EEF14F722538FC3300BEEAE5 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		EEF14F752539091F00BEEAE5 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
@@ -68,7 +72,6 @@
 				B71624C0794133F1E9537E02 /* Pods-PhotosGallery.debug.xcconfig */,
 				AB2179C26AFAA465B6F433C8 /* Pods-PhotosGallery.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -98,6 +101,7 @@
 				EE0E74CA2519260F0076382A /* MainTabBarController.swift */,
 				EE0E74CC251927520076382A /* PhotosCollectionVC.swift */,
 				EEF14F752539091F00BEEAE5 /* PhotosCell.swift */,
+				EEC628E9254B732700EBD46B /* Likes */,
 				EE0E74BA251925920076382A /* ViewController.swift */,
 				EEF14F742538FC4700BEEAE5 /* models */,
 				EEF14F6F2538F72F00BEEAE5 /* NetworkServices */,
@@ -107,6 +111,15 @@
 				EE0E74C4251925950076382A /* Info.plist */,
 			);
 			path = PhotosGallery;
+			sourceTree = "<group>";
+		};
+		EEC628E9254B732700EBD46B /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				EEC628E5254B72CF00EBD46B /* LikesCollectionViewController.swift */,
+				EEC628E7254B732000EBD46B /* LikesCollectionViewCell.swift */,
+			);
+			path = Likes;
 			sourceTree = "<group>";
 		};
 		EEF14F6F2538F72F00BEEAE5 /* NetworkServices */ = {
@@ -243,11 +256,13 @@
 			files = (
 				EEF14F712538FBDB00BEEAE5 /* NetworkDataFetcher.swift in Sources */,
 				EE0E74CD251927520076382A /* PhotosCollectionVC.swift in Sources */,
+				EEC628E8254B732000EBD46B /* LikesCollectionViewCell.swift in Sources */,
 				EE0E74BB251925920076382A /* ViewController.swift in Sources */,
 				EE0E74B7251925920076382A /* AppDelegate.swift in Sources */,
 				EE0E74CB2519260F0076382A /* MainTabBarController.swift in Sources */,
 				EE360EA5251A2AB300D98E34 /* NetworkService.swift in Sources */,
 				EEF14F732538FC3300BEEAE5 /* SearchResults.swift in Sources */,
+				EEC628E6254B72CF00EBD46B /* LikesCollectionViewController.swift in Sources */,
 				EE0E74B9251925920076382A /* SceneDelegate.swift in Sources */,
 				EEF14F762539091F00BEEAE5 /* PhotosCell.swift in Sources */,
 			);

@@ -19,10 +19,11 @@ class MainTabBarController : UITabBarController {
         
         
         let photosVC = PhotosCollectionVC(collectionViewLayout: UICollectionViewFlowLayout())
+        let likesVC = LikesCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
         
         
         
-        viewControllers = [generateNavVC(rootViewController: photosVC, title: "Photos", image: #imageLiteral(resourceName: "Today-20")), generateNavVC(rootViewController: ViewController(), title: "Favorites", image: #imageLiteral(resourceName: "For You-20")),
+        viewControllers = [generateNavVC(rootViewController: photosVC, title: "Photos", image: #imageLiteral(resourceName: "Today-20")), generateNavVC(rootViewController: likesVC, title: "Favorites", image: #imageLiteral(resourceName: "For You-20")),
         
         ]
     }
