@@ -38,6 +38,7 @@
 		EE0E74CA2519260F0076382A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		EE0E74CC251927520076382A /* PhotosCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionVC.swift; sourceTree = "<group>"; };
 		EE360EA4251A2AB300D98E34 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EE57392C256D340900D146A3 /* PhotosGallery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotosGallery.entitlements; sourceTree = "<group>"; };
 		EE794FBA2519360B00FEA5FF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EEC628E5254B72CF00EBD46B /* LikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewController.swift; sourceTree = "<group>"; };
 		EEC628E7254B732000EBD46B /* LikesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		EE0E74B5251925920076382A /* PhotosGallery */ = {
 			isa = PBXGroup;
 			children = (
+				EE57392C256D340900D146A3 /* PhotosGallery.entitlements */,
 				EE0E74B6251925920076382A /* AppDelegate.swift */,
 				EE0E74B8251925920076382A /* SceneDelegate.swift */,
 				EE0E74CA2519260F0076382A /* MainTabBarController.swift */,
@@ -401,6 +403,7 @@
 			baseConfigurationReference = B71624C0794133F1E9537E02 /* Pods-PhotosGallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotosGallery/PhotosGallery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4XKW9NXX6;
 				INFOPLIST_FILE = PhotosGallery/Info.plist;
@@ -410,6 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.PhotosGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -420,6 +424,7 @@
 			baseConfigurationReference = AB2179C26AFAA465B6F433C8 /* Pods-PhotosGallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotosGallery/PhotosGallery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4XKW9NXX6;
 				INFOPLIST_FILE = PhotosGallery/Info.plist;
@@ -429,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = firsttwo.PhotosGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
