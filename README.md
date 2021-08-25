@@ -10,9 +10,5 @@ App for searching free images (Unsplash API):
 – Auto layout: Anchor</br>
 – Work with SDWebImage library for сaching images in CollectionCell</br>
 
-
-<img src="https://user-images.githubusercontent.com/44450208/130796647-eeea279b-291c-462d-ae93-2199ba598f4c.png" width="300" height="800" />
-<img src="https://user-images.githubusercontent.com/44450208/130796805-3f3dbe85-63de-46aa-aa0e-a3edc5a88d55.png" width="400" height="800" />
-<img src="https://user-images.githubusercontent.com/44450208/130796911-6439bf62-4d56-41c5-9c51-d62851539272.png)" width="400" height="800" />
-<img src="https://user-images.githubusercontent.com/44450208/130797732-9693aeeb-7031-4d1a-8869-81ad0e973ed7.png)" width="400" height="800" />
+<img src="https://user-images.githubusercontent.com/44450208/130801258-202fac7b-b674-4538-ac1c-61a39a231645.png" width="300" height="600" />
 
