@@ -1,14 +1,14 @@
 # PhotosGallery
 App for searching free images (Unsplash API):
 
-– Work with CollectionView\n
-– Work with URLSession\n
-– Setting Customizing Collection View and CollectionViewCell purely in code\n
-– Work with other UIKit elements (like UIAlertController and Labels)\n
-– Work with ShareController\n
-– Used MVC pattern\n
-– Auto layout: Anchor\n
-– Work with SDWebImage library for сaching images in CollectionCell\n
+– Work with CollectionView</br>
+– Work with URLSession</br>
+– Setting Customizing Collection View and CollectionViewCell purely in code</br>
+– Work with other UIKit elements (like UIAlertController and Labels)</br>
+– Work with ShareController</br>
+– Used MVC pattern</br>
+– Auto layout: Anchor</br>
+– Work with SDWebImage library for сaching images in CollectionCell</br>
 
 
 ![PhotosGalleryFirstScreen](https://user-images.githubusercontent.com/44450208/130796647-eeea279b-291c-462d-ae93-2199ba598f4c.png)
